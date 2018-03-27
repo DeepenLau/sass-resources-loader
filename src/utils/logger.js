@@ -6,7 +6,7 @@ export default {
 
   log(...output) {
     const pettyOutput = (
-      [chalk.yellow('[sass-resources-loader]: ')].concat(output, '\n')
+      [chalk.yellow('[stylus-resources-loader]: ')].concat(output, '\n')
     );
     console.log(...pettyOutput);
   },
@@ -17,7 +17,7 @@ export default {
 
   error(...output) {
     const errorOutput = (
-      [chalk.red('[sass-resources-loader]: ')].concat(output, '\n')
+      [chalk.red('[stylus-resources-loader]: ')].concat(output, '\n')
     );
     console.log(...errorOutput);
   },
